@@ -230,7 +230,6 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">AK.TKJ</div>
   <div class="nav-links">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
@@ -445,12 +444,12 @@
         <div class="contact-item">
           <div class="contact-item-icon">📧</div>
           <div class="contact-item-label">EMAIL</div>
-          <div class="contact-item-val">alfinokausar@email.com</div>
+          <div class="contact-item-val">alfinokausar2@gmail.com</div>
         </div>
         <div class="contact-item">
           <div class="contact-item-icon">📱</div>
           <div class="contact-item-label">WHATSAPP</div>
-          <div class="contact-item-val">+62 8xx-xxxx-xxxx</div>
+          <div class="contact-item-val">+62 813-8696-6266</div>
         </div>
         <div class="contact-item">
           <div class="contact-item-icon">🏫</div>
