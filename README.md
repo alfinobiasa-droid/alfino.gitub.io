@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -741,7 +740,7 @@
 
 <!-- NAVBAR -->
 <nav>
-  <div class="nav-logo">[<span>TKJ</span>_PORTOFOLIO]</div>
+  <div class="nav-logo"><span>ALFINO KAUSAR</span></div>
   <ul class="nav-links">
     <li><a href="#about">Tentang</a></li>
     <li><a href="#skills">Skill</a></li>
@@ -769,8 +768,8 @@
       <div class="hero-tag">Teknik Komputer & Jaringan</div>
       <h1>
         Halo, Saya<br/>
-        <span class="accent">Network</span><br/>
-        Enthusiast.
+        <span class="accent">Alfino</span><br/>
+        Kausar.
       </h1>
       <p class="hero-sub">
         Siswa TKJ yang bersemangat mempelajari dunia jaringan komputer — dari konfigurasi IP hingga routing Mikrotik. Siap berkontribusi di era digital.
@@ -1046,28 +1045,26 @@
       </div>
     </div>
 
-    <form class="contact-form" onsubmit="handleSubmit(event)">
-      <div class="field-wrap">
-        <label for="name">Nama</label>
-        <input type="text" id="name" placeholder="Nama kamu..."/>
-      </div>
-      <div class="field-wrap">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="email@kamu.com"/>
-      </div>
-      <div class="field-wrap">
-        <label for="msg">Pesan</label>
-        <textarea id="msg" placeholder="Tulis pesanmu di sini..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" style="align-self:flex-start;">▸ Kirim Pesan</button>
-    </form>
+<form action="https://formspree.io/f/xyzabcde" method="POST" class="contact-form">
+  <div class="field-wrap">
+    <label>Nama</label>
+    <input type="text" name="name" placeholder="Nama kamu..."/>
   </div>
-</section>
+  <div class="field-wrap">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="email@kamu.com"/>
+  </div>
+  <div class="field-wrap">
+    <label>Pesan</label>
+    <textarea name="message" placeholder="Tulis pesanmu di sini..."></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" style="align-self:flex-start;">▸ Kirim Pesan</button>
+</form>
 
 <!-- FOOTER -->
 <footer>
   <div class="footer-left">
-    © 2025 <span>[TKJ_PORTOFOLIO]</span> — Built with ❤️ & HTML/CSS/JS
+    © 2025 <span>ALFINO KAUSAR</span>
   </div>
   <div class="footer-right">
     <a href="#hero" class="footer-link">↑ Back to Top</a>
